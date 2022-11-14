@@ -1,0 +1,126 @@
+
+html,body{
+    height:100%;
+}
+.mainNav{
+    height: 100%;
+    width: 200px;
+    background-color: #03152B;
+    float: left;
+    text-align: center;
+}
+.mainNav >p1 {
+    
+    color: aliceblue;
+    
+}
+.LoginNav{
+   width: 100%;
+   height: 100px;
+   background-color: white;
+   display: flex;
+   
+}
+.LoginNav > p1{
+    color: black;
+    
+}
+.SearchNav{ 
+    width: 100%;
+    background-color: #545D66;
+    height: 100px;
+    display: flex;
+   
+}
+.SearchNav > p1{
+    color: aliceblue;
+    width: 200px;
+}
+.SearchNav > ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;	
+
+}
+.SearchNav > ul > li{
+    float: left;
+}
+.SearchNav > ul > li > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.SearchNav > ul > li :hover{
+    background-color: #1A90FA;
+}
+.AlbumNav{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    
+}
+.AlbumNav > p1{
+    color: #03152B;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainNav-ul{
+    list-style-type: none;
+    margin: 0;
+    width: 200px;
+    padding: 0;
+   
+}
+.mainNav-ul > li  a{
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 50px
+}
+.mainNav-ul > li a:hover{
+    background-color: #1A90FA;
+    color: white;
+}
+.user-header > img{
+    width: 50px;
+    height: 50px;
+}
+.user-header{
+    float: right;
+    margin: 30px;
+    margin-left: 80%;
+}
+.user-id{
+    display: flex;
+    margin-left: 2px ;
+}
+.Albums {
+    display: flex;
+     flex-flow: row wrap;
+     align-content: flex-start;
+     background-color: wheat;
+}
+.Album img{
+    width: 300px;
+    height: 200px;
+}
+.Album{
+    display: flex;
+    margin: 5px;
+}
+.AlbumNav-text{
+    width: 200px;
+}
+.user-header-text{
+    text-align: right;
+    width: 500px;
+}
