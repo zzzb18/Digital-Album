@@ -12,24 +12,28 @@
     <div class="login-container">
         <div>
             <div class="welcome-text">
-                <span>欢迎使用电子相册系统！</span>
+                <span>注册您的账号</span>
             </div>
         </div>
     
         <div class="loginbox">
             <div class = "username">
-                用户名
+                输入您的用户名
                 <input type="text",placeholder="用户名">
             </div>
             <div class = "password">
-                密 码
+                输入您的密码
+                <input type="text",placeholder="密码">
+            </div>
+            <div class = "password">
+                再次输入您的密码
                 <input type="text",placeholder="密码">
             </div>
             <div>
-                <a href="{% url 'home' %}"><button class="login-box-button">登录</button></a>
+                <button class="login-box-button">注册</button>
             </div>
             <div class="register">
-                <a href="{% url 'register' %}">注册</a>
+                <a href="{% url 'login' %}">登录</a>
             </div>
         </div>
     </div>

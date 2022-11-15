@@ -6,4 +6,7 @@ def homePage(request):
 
 def LoginPage(request):
     return render(request,'LoginPage.html')
+
+def RegisterPage(request):
+    return render(request,'RegPage.html')
     
