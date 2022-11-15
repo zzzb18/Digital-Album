@@ -124,3 +124,56 @@ html,body{
     text-align: right;
     width: 500px;
 }
+
+.login-container{
+    height: 500px;
+    width: 500px;
+    background-color: #A7A7A7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.login-box{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+.login-box-button{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+.username{
+    margin-top: 20px;
+    text-align: center;
+}
+.username > input{
+    width: 200px;
+    height: 30px;
+}
+.password{
+    margin-top: 20px;
+    text-align: center;
+}
+.password > input{
+    width: 200px;
+    height: 30px;
+}
+.welcome-text{
+    margin-top: 10px;
+    text-align: center;
+}
+.register{
+    text-align: center;
+}
+.loginPage{
+    background-color: wheat;
+}

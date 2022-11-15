@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+</head>
+<body class="loginPage">
+    <div class="login-container">
+        <div>
+            <div class="welcome-text">
+                <span>欢迎使用电子相册系统！</span>
+            </div>
+        </div>
+    
+        <div class="loginbox">
+            <div class = "username">
+                用户名
+                <input type="text",placeholder="用户名">
+            </div>
+            <div class = "password">
+                密 码
+                <input type="text",placeholder="密码">
+            </div>
+            <div>
+                <button class="login-box-button">登录</button>
+            </div>
+            <div class="register">
+                <a href="">注册</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
