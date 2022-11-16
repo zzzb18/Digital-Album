@@ -1,8 +1,11 @@
 from django.shortcuts import render
-
+from .models import *
 # Create your views here.
 def homePage(request):
-    return render(request,'index.html')
+    topics = Topic.objects.all()
+    context = {'topics':topics}
+    return render(request,'index.html',context)
+
 
 def LoginPage(request):
     return render(request,'LoginPage.html')

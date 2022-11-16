@@ -22,6 +22,7 @@ html,body{
    
 }
 .LoginNav > p1{
+    display: flex;
     color: black;
     
 }
@@ -36,26 +37,30 @@ html,body{
     color: aliceblue;
     width: 200px;
 }
-.SearchNav > ul{
+.SearchNav-ul> ul{
     
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;	
+    background-color: #333;
+    height: 80px;	
 
 }
-.SearchNav > ul > li{
+.SearchNav-ul > ul > li{
     float: left;
+    text-align: center;
+    margin-top: 15px;
+    
 }
-.SearchNav > ul > li > a{
+.SearchNav-ul > ul > li > a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.SearchNav > ul > li :hover{
+.SearchNav-ul > ul > li :hover{
     background-color: #1A90FA;
 }
 .AlbumNav{
@@ -80,28 +85,56 @@ html,body{
     padding: 0;
    
 }
+.mainNav-p1{
+    background-color: #1A90FA;
+    margin-top: 20px;
+    height: 80px;
+    text-align: center;
+    border-radius: 12%;
+}
+.mainNav-p1 > p1{
+    position: absolute;
+    top:50px;
+    left: 10px;
+    font-size: larger;
+    font-family: 微软雅黑;
+}
 .mainNav-ul > li  a{
     display: block;
     color: white;
     height: 50px;
-    padding: 50px
+    padding: 50px;
+    text-decoration: none;
 }
 .mainNav-ul > li a:hover{
     background-color: #1A90FA;
     color: white;
+  
 }
-.user-header > img{
+
+.user-header{
+    width: 100%;
+    margin-right: 20px;
+    /* float: right; */
+    margin: 30px;
+    /* margin-left: 80%; */
+    display: flex;
+}
+.user-img{
+    float: right;
+}
+.user-img > img{
+    
     width: 50px;
     height: 50px;
-}
-.user-header{
-    float: right;
-    margin: 30px;
-    margin-left: 80%;
+    margin-right: 20px;
 }
 .user-id{
-    display: flex;
-    margin-left: 2px ;
+    width: fit-content;
+    text-align: center;
+    margin-right: 20px;
+    display:flex;
+    
 }
 .Albums {
     display: flex;
@@ -121,8 +154,13 @@ html,body{
     width: 200px;
 }
 .user-header-text{
-    text-align: right;
-    width: 500px;
+    /* text-align: right; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+}
+.user-header-text > p{
+    margin: 0 auto;
 }
 
 .login-container{
@@ -176,4 +214,22 @@ html,body{
 }
 .loginPage{
     background-color: wheat;
+}
+.SearchNav-p1{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.SearchNav-p1 > p1{
+   margin: auto;
+   
+}
+.LoginCon{
+    float: right;
+    text-align: right;
+}
+.next-page{
+    text-align: center;
 }
