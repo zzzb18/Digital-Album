@@ -1,0 +1,235 @@
+
+html,body{
+    height:100%;
+}
+.mainNav{
+    height: 100%;
+    width: 200px;
+    background-color: #03152B;
+    float: left;
+    text-align: center;
+}
+.mainNav >p1 {
+    
+    color: aliceblue;
+    
+}
+.LoginNav{
+   width: 100%;
+   height: 100px;
+   background-color: white;
+   display: flex;
+   
+}
+.LoginNav > p1{
+    display: flex;
+    color: black;
+    
+}
+.SearchNav{ 
+    width: 100%;
+    background-color: #545D66;
+    height: 100px;
+    display: flex;
+   
+}
+.SearchNav > p1{
+    color: aliceblue;
+    width: 200px;
+}
+.SearchNav-ul> ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 80px;	
+
+}
+.SearchNav-ul > ul > li{
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.SearchNav-ul > ul > li > a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.SearchNav-ul > ul > li :hover{
+    background-color: #1A90FA;
+}
+.AlbumNav{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    
+}
+.AlbumNav > p1{
+    color: #03152B;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainNav-ul{
+    list-style-type: none;
+    margin: 0;
+    width: 200px;
+    padding: 0;
+   
+}
+.mainNav-p1{
+    background-color: #1A90FA;
+    margin-top: 20px;
+    height: 80px;
+    text-align: center;
+    border-radius: 12%;
+}
+.mainNav-p1 > p1{
+    position: absolute;
+    top:50px;
+    left: 10px;
+    font-size: larger;
+    font-family: 微软雅黑;
+}
+.mainNav-ul > li  a{
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 50px;
+    text-decoration: none;
+}
+.mainNav-ul > li a:hover{
+    background-color: #1A90FA;
+    color: white;
+  
+}
+
+.user-header{
+    width: 100%;
+    margin-right: 20px;
+    /* float: right; */
+    margin: 30px;
+    /* margin-left: 80%; */
+    display: flex;
+}
+.user-img{
+    float: right;
+}
+.user-img > img{
+    
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.user-id{
+    width: fit-content;
+    text-align: center;
+    margin-right: 20px;
+    display:flex;
+    
+}
+.Albums {
+    display: flex;
+     flex-flow: row wrap;
+     align-content: flex-start;
+     background-color: wheat;
+}
+.Album img{
+    width: 300px;
+    height: 200px;
+}
+.Album{
+    display: flex;
+    margin: 5px;
+}
+.AlbumNav-text{
+    width: 200px;
+}
+.user-header-text{
+    /* text-align: right; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+}
+.user-header-text > p{
+    margin: 0 auto;
+}
+
+.login-container{
+    height: 500px;
+    width: 500px;
+    background-color: #A7A7A7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.login-box{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+.login-box-button{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+.username{
+    margin-top: 20px;
+    text-align: center;
+}
+.username > input{
+    width: 200px;
+    height: 30px;
+}
+.password{
+    margin-top: 20px;
+    text-align: center;
+}
+.password > input{
+    width: 200px;
+    height: 30px;
+}
+.welcome-text{
+    margin-top: 10px;
+    text-align: center;
+}
+.register{
+    text-align: center;
+}
+.loginPage{
+    background-color: wheat;
+}
+.SearchNav-p1{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.SearchNav-p1 > p1{
+   margin: auto;
+   
+}
+.LoginCon{
+    float: right;
+    text-align: right;
+}
+.next-page{
+    text-align: center;
+}
